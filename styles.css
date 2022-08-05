@@ -1,0 +1,190 @@
+*  {
+	box-sizing: border-box;
+}
+
+body {
+	
+	background: rgba(255, 230, 230, 0.5);
+	
+	margin: 0 auto 1vw;
+	width: 80%;
+	
+}
+
+.page-wrapper {
+	width: 100%;
+	margin: auto;
+	border: 2px solid rgba(247, 226, 214);
+	
+}
+
+header {
+	position: fixed;
+	width: 79.89%;
+	border: 0;
+	top: 0;
+	margin: auto;
+}
+
+.head-wrapper {
+	width: 100%;
+	margin: auto;
+	height: 80px;
+	display: flex;
+	background-color: #DFBB9D;
+	
+}
+
+.image-wrapper {
+	width: 50%;
+	text-align: left;
+	height: 100%;
+	margin: 0;
+	align-items: center;
+	align-content: center;
+	display: flex;
+	padding-left: 10px;
+	
+}
+
+#myimage {
+	max-width: 70px;
+	max-height: 70px;
+}
+
+.nav-wrapper {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	width: 50%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation  {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+.navigation li {
+	list-style-type: none;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	width: 100%;
+	margin: auto;
+	height: 50vh;
+	background-color: #fffbf5;
+	text-align: center;
+	/* background-image: url("/home/workstation/Documents/Let's Talk About It/banner.png");*/
+}
+
+.space-header {
+	padding-top: 80px;
+}
+
+#banner-img {
+	max-width: 50%;
+	max-height: 50vh;
+}
+
+.socials {
+	width: 100%;
+	padding: 10px;
+	
+}
+
+.socials a {
+	padding: 0 20px;
+}
+
+.socials i {
+	font-size: 20px;
+}
+
+.fa-facebook {
+	color: #4267B2;
+}
+
+
+.fa-instagram {
+	color: #fccc63;
+}
+
+.fa-youtube {
+	color: red;
+}	
+
+
+.about-cheng {
+	width: 100%;
+	height: 80vh;
+	margin: auto;
+}	
+
+.grid-wrap {
+	width: 80%;
+	margin: 20px auto;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+	text-align: center;
+	
+}
+
+.cl-2 {
+	grid-column-start: 2;
+	grid-row-start: -1;
+	grid-row-end: span 2;
+}
+
+/*
+.cl-3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+*/
+
+.img-carousel {
+	width: 300px;
+	height: 300px;
+}
+
+
+		
+.welcome-message {
+	width: 100%;
+	height: 80vh;
+	background-color: #DFBB9D;
+	opacity: 0.7;
+	margin: auto;
+	
+}
+
+.message {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+.message h1 {
+	margin: 0;
+	padding-top: 20px;
+}
+
+
+
+
+
